@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- Файл с настройками ресурсов для работы с данными (Data Access Resources) -->
+    <import resource="file:/home/iostream/IdeaProjects/SpringMongoUsers/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+
+    <!-- Файл с настройками безопасности -->
+    <!--<import resource="security.xml" />-->
+</beans>
